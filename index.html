@@ -1,79 +1,134 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+    Twenty by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Margaux Faurie</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Margaux Faurie - Engineer & Project Manager</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
-<body>
-    <header>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<body class="index is-preload">
+    <div id="page-wrapper">
 
-    <section id="home">
-        <div class="home-container">
-            <h1>Welcome to My Portfolio</h1>
-            <p>I'm Margaux Faurie, an aspiring engineer and project manager with a passion for technology and innovation.</p>
-            <a href="#about" class="btn">Learn More</a>
-        </div>
-    </section>
+        <!-- Header -->
+        <header id="header" class="alt">
+            <h1 id="logo"><a href="index.html">Margaux Faurie</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a Master's student in General Engineering and Engineering Management with extensive experience in project management and IT systems implementation. My global academic journey has equipped me with diverse skills in engineering, programming, and leadership.</p>
-    </section>
-
-    <section id="resume">
-        <h2>Resume</h2>
-        <a href="Margaux_Faurie_Resume.pdf" download class="btn">Download Resume</a>
-        <ul>
-            <li><strong>Education:</strong> Master of Engineering Management, UTS | Master of General Engineering, ECAM</li>
-            <li><strong>Experience:</strong> IT Project Manager at BW Digital, Project Manager Intern at ATRIX Group</li>
-            <li><strong>Skills:</strong> Python, HTML/CSS, SQL, SharePoint, PowerBI</li>
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-list">
-            <div class="project-item">
-                <h3>Endeavour Energy Vegetation Management System</h3>
-                <p>Led a team to deliver innovative solutions for vegetation management, presented to industry experts.</p>
+        <!-- Banner -->
+        <section id="banner">
+            <div class="inner">
+                <header>
+                    <h2>Margaux Faurie</h2>
+                </header>
+                <p>Master's student in Engineering Management<br />
+                    Skilled in project leadership, IT systems, and engineering innovation.
+                </p>
+                <footer>
+                    <ul class="buttons stacked">
+                        <li><a href="#main" class="button fit scrolly">Learn More</a></li>
+                    </ul>
+                </footer>
             </div>
-            <!-- Add more project items here -->
-        </div>
-    </section>
+        </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="https://formspree.io/f/margaux_faurie" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+        <!-- Main -->
+        <article id="main">
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <header class="special container">
+                <span class="icon solid fa-user"></span>
+                <h2>About Me</h2>
+                <p>Driven and detail-oriented, I bring expertise in engineering and project management.<br />
+                   My passion lies in leading teams to deliver innovative and effective solutions.
+                </p>
+            </header>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+            <!-- Resume -->
+            <section class="wrapper style2 container special-alt">
+                <div class="row gtr-50">
+                    <div class="col-8 col-12-narrower">
+                        <header>
+                            <h2>Professional Summary</h2>
+                        </header>
+                        <p>Experienced in IT systems implementation, project management, and engineering design.<br />
+                           Highlights include leading a team for Endeavour Energy's Vegetation Management System<br />
+                           and implementing HR automation tools at BW Digital.
+                        </p>
+                        <footer>
+                            <ul class="buttons">
+                                <li><a href="assets/MF-Resume.pdf" class="button">View My Resume</a></li>
+                            </ul>
+                        </footer>
+                    </div>
+                </div>
+            </section>
 
-            <button type="submit">Send</button>
-        </form>
-    </section>
+            <!-- Projects -->
+            <section class="wrapper style1 container special">
+                <header class="major">
+                    <h2>Selected Projects</h2>
+                </header>
+                <div class="row">
+                    <div class="col-4 col-12-narrower">
+                        <section>
+                            <span class="icon solid featured fa-chart-bar"></span>
+                            <header>
+                                <h3>Endeavour Energy Vegetation Management</h3>
+                            </header>
+                            <p>Led a team of managers to deliver cost-saving solutions, presented to industry experts.</p>
+                        </section>
+                    </div>
+                    <div class="col-4 col-12-narrower">
+                        <section>
+                            <span class="icon solid featured fa-cogs"></span>
+                            <header>
+                                <h3>SharePoint Migration</h3>
+                            </header>
+                            <p>Designed and implemented 40+ sites, ensuring seamless migration and user adoption.</p>
+                        </section>
+                    </div>
+                    <div class="col-4 col-12-narrower">
+                        <section>
+                            <span class="icon solid featured fa-laptop"></span>
+                            <header>
+                                <h3>HR Automation Tools</h3>
+                            </header>
+                            <p>Developed automated systems for employee tracking and follow-up, improving efficiency.</p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </article>
 
-    <footer>
-        <p>&copy; 2025 Margaux Faurie. All rights reserved.</p>
-    </footer>
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="#" class="icon brands circle fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="#" class="icon brands circle fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Margaux Faurie</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
